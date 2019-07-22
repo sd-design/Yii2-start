@@ -8,6 +8,7 @@
 namespace app\assets;
 
 use yii\web\AssetBundle;
+\Yii::$app->language = "ru-RU";
 
 /**
  * Main application asset bundle.
@@ -17,6 +18,7 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
+
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [

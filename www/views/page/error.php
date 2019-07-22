@@ -17,7 +17,7 @@ $this->title = $name;
         <?= nl2br(Html::encode($message)) ?>
     </div>
 
-    <p>
+    <p class="text-info">
         The above error occurred while the Web server was processing your request.
     </p>
     <p>

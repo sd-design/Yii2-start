@@ -14,7 +14,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'helloYII2STARTin2019',
+            'cookieValidationKey' => '0DHXJceGcsayMIw4OZ46MhbBN6XXxvWP',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -43,32 +43,32 @@ $config = [
             ],
         ],
         'db' => $db,
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => false,
-            'rules' => [
-                'defaultRoute' => 'my/index',
+        'rules' => [
+     '' => 'my/index',
+     '<controller:[\w-]+>/<id:\d+>' => '<controller>/view',
     'POST <controller:[\w-]+>' => '<controller>/create',
     '<controller:[\w-]+>s' => '<controller>/index',
-    'PUT <controller:[\w-]+>/<id:\d+>'    => '<controller>/update',
-    'DELETE <controller:[\w-]+>/<id:\d+>' => '<controller>/delete',
-    '<controller:[\w-]+>/<id:\d+>'        => '<controller>/view'
+    'PUT <controller:[\w-]+>/<id:\d+>' => '<controller>/update',
+    'DELETE <controller:[\w-]+>/<id:\d+>' => '<controller>/delete'
             ],
         ],
-        
+    
     ],
     'params' => $params,
 ];
 
 if (YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
-    //$config['bootstrap'][] = 'debug';
-    /* $config['modules']['debug'] = [
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
         //'allowedIPs' => ['127.0.0.1', '::1'],
-    ]; */
+    ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [

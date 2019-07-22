@@ -7,11 +7,11 @@ $this->title = 'МОЁ Yii Application';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Controller => MY!</h1>
+        <h1>Controller => Page</h1>
 
         <p class="lead">Твое Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-info" href="http://www.yiiframework.com">Стартуем with Yii</a></p>
+        <p><a class="btn btn-lg btn-warning" href="/page/1">Можно перейти на страницу с id</a></p>
     
     </div>
 
@@ -23,7 +23,7 @@ $this->title = 'МОЁ Yii Application';
 
                 <p>Пришлось обновить через Композер - и в итоге это стала версия 2.0.23 и 'defaultRoute'  как переменная не работает в urlManager. Но зато должен работать view с отдельным id</p>
 
-                <p><a class="btn btn-primary" href="/page/1">/page/1</a></p>
+                <p><a class="btn btn-primary" href="/my/page/1">/my/page/1</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Heading</h2>

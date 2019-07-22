@@ -7,12 +7,11 @@ $this->title = 'МОЁ Yii Application';
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Controller => MY!</h1>
+        <h1>Congratulations!</h1>
 
         <p class="lead">Твое Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-info" href="http://www.yiiframework.com">Стартуем with Yii</a></p>
-    
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Стартуем with Yii</a></p>
     </div>
 
     <div class="body-content">
@@ -21,9 +20,12 @@ $this->title = 'МОЁ Yii Application';
             <div class="col-lg-4">
                 <h2>Heading</h2>
 
-                <p>Пришлось обновить через Композер - и в итоге это стала версия 2.0.23 и 'defaultRoute'  как переменная не работает в urlManager. Но зато должен работать view с отдельным id</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-primary" href="/page/1">/page/1</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Heading</h2>
@@ -33,7 +35,7 @@ $this->title = 'МОЁ Yii Application';
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-primary" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Heading</h2>
@@ -43,7 +45,7 @@ $this->title = 'МОЁ Yii Application';
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-primary" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
             </div>
         </div>
 

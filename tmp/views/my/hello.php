@@ -23,7 +23,7 @@ $this->title = 'МОЁ Yii Application';
 
                 <p>Пришлось обновить через Композер - и в итоге это стала версия 2.0.23 и 'defaultRoute'  как переменная не работает в urlManager. Но зато должен работать view с отдельным id</p>
 
-                <p><a class="btn btn-primary" href="/page/1">/page/1</a></p>
+                <p><a class="btn btn-primary" href="/my/page/1">/my/page/1</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Heading</h2>
