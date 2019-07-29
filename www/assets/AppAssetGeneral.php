@@ -11,20 +11,21 @@ use yii\web\AssetBundle;
 \Yii::$app->language = "ru-RU";
 
 /**
- * Main application asset bundle.
- *
- * @author Qiang Xue <qiang.xue@gmail.com>
- * @since 2.0
+ * General application asset bundle.
+
  */
-class AppAsset extends AssetBundle
+
+class AppAssetGeneral extends AssetBundle
 {
 
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css'
+        'css/site.css',
+        'css/style.css',
     ];
     public $js = [
+        'js/script.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

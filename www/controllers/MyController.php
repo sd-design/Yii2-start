@@ -10,6 +10,7 @@ use app\models\ContactForm;
 
 class MyController extends Controller
 {
+    public $layout = 'general';
     public function actionIndex()
     {
         return $this->render('hello');
