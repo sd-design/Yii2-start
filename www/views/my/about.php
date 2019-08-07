@@ -16,3 +16,4 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <code><?= __FILE__ ?></code>
 </div>
+<?php $this->registerJsFile('@web/js/script2.js', ['position' => \yii\web\View::POS_END]) ?>
